@@ -1,1 +1,8 @@
-<h1>Welcome all Coffee Lovers</h1>
+<% @coffees.each do |coffee| %>
+  <div>
+    <h1><%= coffee.name %></h1><br />
+    <i><%= coffee.country %></i><br />
+    <p><%= coffee.description %></p><br />
+  </div>
+
+<% end %>
