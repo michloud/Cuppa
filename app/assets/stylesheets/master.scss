@@ -1,1 +1,13 @@
 @import "bootstrap";
+
+
+body {
+  background: url('beans.jpg') center center;
+  background-size: cover;
+} 
+
+.fancy box {
+  background-color: #D0B192;
+  border:1px solid #ccc;
+  border-color:#e4e4e4 #bebebd #bebebd #e4e4e4;
+}
