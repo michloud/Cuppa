@@ -2,12 +2,21 @@
 
 
 body {
-  background: url('beans.jpg') center center;
+  background: image_url('beans.jpg') center center;
   background-size: cover;
+  font-family: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
 } 
 
-.fancy box {
-  background-color: #D0B192;
-  border:1px solid #ccc;
-  border-color:#e4e4e4 #bebebd #bebebd #e4e4e4;
+.bland-box {
+  box-shadow: 1px 1px 2px 0 #8C6C4B;
+  background: image_url('white-waves.png');
+
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin:0;
+  padding:0;
 }
