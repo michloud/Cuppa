@@ -14,7 +14,8 @@ body {
   margin-top: 15px;
   margin-bottom: 10px;
   padding: 20px;
-  height: 160px;
+  height: 180px;
+  width: 500px;
   float: left;
 }
 
@@ -55,3 +56,31 @@ h1, h2, h3, h4, h5, h6 {
   text-align: right;
   font-size: 12px;
 }
+
+
+.pagination {
+  text-align: center;
+  display: inline-block;
+  margin-top: 1px;
+
+ }
+
+ .pagination a {
+  padding: 2px 5px 2px 5px;
+  margin: 2px;
+  border: 1px solid #55D71C;
+  color: #55D71C;
+}
+
+
+.pagination span.disabled {
+  padding: 2px 5px 2px 5px;
+  margin: 2px;
+  border: 1px solid #E5D1B;
+  color: #A6A095;
+}
+
+.pagination em.current {
+  color: #A6A095;
+}
+
