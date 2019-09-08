@@ -17,26 +17,33 @@ body {
   height: 180px;
   width: 500px;
   float: left;
+
 }
 
 h1, h2, h3, h4, h5, h6 {
   margin:0;
   padding:0;
+  font-size: 24px;
+
 }
 
 .navbar {
   box-shadow: 3px 3px 3px #A68148;
+  background: #904F0B;
 }
-.navbar-text {
+.navbar-inverse .navbar-text {
   text-align: center;
   margin-top: 0;
   padding: 0px;
   vertical-align: middle;
-  font-size: 15px;
+  font-size: 20px;
+  color: #F1E1C7;
 }
 
+
+
 .navbar-inverse .navbar-brand {
-  color: #F8F2EB;
+  color: #F1E1C7;
   font-family: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
   font-size: 26px;
 }
