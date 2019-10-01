@@ -2,17 +2,16 @@
 
 
 body {
-  background: image_url('beans.jpg') center center;
+  background: image_url('white-waves.png') center center;
   background-size: cover;
   font-family: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
-  color: #F1E1C7;
+  color: #904F0B;
 } 
 
 .bland-box {
-  border: 2px double #E5D1B3;
+  border: 2px double #904F0B;
   background: transparent;
-  margin-top: 15px;
-  margin-bottom: 10px;
+  margin: 20px;
   padding: 20px;
   height: 160px;
   width: 500px;
@@ -31,14 +30,7 @@ h1, h2, h3, h4, h5, h6 {
   box-shadow: 3px 3px 3px #A68148;
   background: #904F0B;
 }
-.navbar-inverse .navbar-text {
-  text-align: center;
-  margin-top: 0;
-  padding: 0px;
-  vertical-align: middle;
-  font-size: 16px;
-  color: #F1E1C7;
-}
+
 
 
 
@@ -62,6 +54,7 @@ h1, h2, h3, h4, h5, h6 {
   font-style: italic;
   text-align: right;
   font-size: 12px;
+  color: white;
 }
 
 
@@ -90,4 +83,23 @@ h1, h2, h3, h4, h5, h6 {
 .pagination em.current {
   color: #A6A095;
 }
+
+
+.coffeebox {
+  background: image_url('beans.jpg');
+  background-size: cover;
+  box-shadow: 0px 3px 8px #2a2a2a;
+  height: 100px;
+  text-align: center;
+  color: #E5D1B3;
+  padding: 30px;
+
+  
+}
+
+.clear {
+  clear: both;
+}
+
+  
 
