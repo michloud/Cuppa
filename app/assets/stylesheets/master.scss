@@ -11,11 +11,12 @@ body {
 .bland-box {
   border: 2px double #904F0B;
   background: transparent;
-  margin: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
   padding: 20px;
-  height: 160px;
-  width: 500px;
-  float: left;
+  height: 140px;
+  
+  
 
 }
 
@@ -62,6 +63,7 @@ h1, h2, h3, h4, h5, h6 {
   text-align: center;
   display: inline-block;
   margin-top: 1px;
+  margin-bottom: 8px;
 
  }
 

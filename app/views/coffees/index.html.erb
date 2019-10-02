@@ -1,12 +1,12 @@
 <div class="coffeebox col-12">
   <h1>Coffees from around the world</h1>
 </div>
-<br />
+
 
 <div class="clear"></div>
 
 <% @coffees.each do |coffee| %>
-  <div class="bland-box col-5 offset-1">
+  <div class="bland-box col-10 offset-1">
     
     <h1><%= coffee.name %></h1>
     <i><%= coffee.country %></i><br /><br />
@@ -14,9 +14,16 @@
   </div>
 
 <% end %>
-<div class="clear"></div>
 
-  <div class="pagination col-10 offset-1">
-    <%= will_paginate @coffees %>
-  </div>
+
+<div class="pagination col-10 offset-1">
+  <%= will_paginate @coffees %>
+</div>
+<br />
+
+
+
+
+
+
 
