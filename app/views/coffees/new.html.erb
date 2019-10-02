@@ -1,0 +1,14 @@
+<div class="bland-box col-10 offset-1">
+  <h1>Add Your Favourite</h1>
+  <%= simple_form_for @coffee do |f| %>
+    <%= f.input :name %>
+    <%= f.input :country %>
+    <%= f.input :description %>
+    <br />
+    <%= f.submit 'Create', class: 'btn btn-primary' %>
+  <% end %>
+</div>
+
+ 
+
+<div class="clear"></div>

@@ -6,6 +6,11 @@ class CoffeesController < ApplicationController
 
   def about
   end
+
+  def new
+    @coffee = Caffeine.new
+
+  end
   
 
 
