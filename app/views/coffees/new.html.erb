@@ -1,5 +1,10 @@
+<div class="coffeebox col-12">
+  <h1>Coffees from around the world</h1>
+</div>
 
-  <h1>Add Your Favourite</h1>
+<div class="newbox">
+  <h1>Share Your Favourite</h1>
+  <br />
   <%= simple_form_for @coffee, url: coffees_path do |f| %>
     <%= f.input :name %>
     <%= f.input :country %>
@@ -7,6 +12,7 @@
     <br />
     <%= f.submit 'Submit', class: 'btn btn-primary' %>
   <% end %>
+</div>
 
 
  
