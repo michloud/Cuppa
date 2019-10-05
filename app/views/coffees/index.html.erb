@@ -1,29 +1,27 @@
 <div class="coffeebox col-12">
-  <h1>Coffees from around the world</h1>
+  <h1>Coffee from around the world</h1>
 </div>
 
 
-<div class="clear"></div>
 
-<% @coffees.each do |coffee| %>
-  <div class="bland-box col-10 offset-1">
-    
-    <h1><%= coffee.name %></h1>
-    <i><%= coffee.country %></i><br /><br />
-    <p><%= coffee.description %></p><br />
+  <% @coffees.each do |coffee| %>
+    <div class="bland-box col-8 offset-2">
+      
+      <h1><%= coffee.name %></h1>
+      <i><%= coffee.country %></i><br /><br />
+      <p><%= coffee.description %></p><br />
+    </div>
+
+  <% end %>
+
+
+
+  <div class="pagination col-10 offset-1">
+    <%= will_paginate @coffees %>
   </div>
 
-<% end %>
-
-<div class="clear"></div>
 
 
-
-<div class="pagination col-10 offset-1">
-  <%= will_paginate @coffees %>
-</div>
-<br />
-<br />
 
 
 
