@@ -10,7 +10,7 @@
   </head>
 
   <body>
-  
+    
     <nav class="navbar navbar-toggleable-md navbar-inverse">
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -20,11 +20,9 @@
       
       <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
         <ul class="navbar-nav mr-auto mt-2 mt-md-0">
-          <li class="nav-item">
-            <%= link_to new_coffee_path, class: 'nav-link' do %>
-              <i class="fa fa-plus"></i>
-              Add Your Own
-            <% end %> 
+          <li class="button" class="btn btn-primary text-white " data-toggle="modal" data-target="#myModal">
+            <i class="fa fa-plus-circle"></i>
+            Share your Favourite 
           </li>
           <li class="nav-item">
             <%= link_to 'About', about_path, class: 'nav-link' %>
